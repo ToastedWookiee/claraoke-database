@@ -3,3 +3,4 @@ export_to_csv.py
 hashes.txt
 import_from_csv.py
 validate_csv.py
+editor.py
