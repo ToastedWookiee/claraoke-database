@@ -12,7 +12,7 @@ df = pd.concat(dfs, ignore_index=True)
 
 st.set_page_config(page_title="CSV Editor", layout="wide")
 
-st.title("CSV Collection Viewer & Editor")
+st.title("Claraoke CSV Collection Viewer & Editor")
 
 # --- Search + Sorting controls (all in one row) ---
 col1, col2, col3, col4, col5 = st.columns([3, 1, 1, 1, 1])

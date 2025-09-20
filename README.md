@@ -14,7 +14,7 @@ Database information originally was sourced from the generous timestampers in th
 
 ## Using editor.py
 
-Step 1: Fork and clone your copy of the repo, this way you can make edits and changes that can be used in a pull request that can be compared to merge with the main repo branch.
+Step 1: Fork and clone your copy of the repo, this way you can make edits and changes that can be used in a pull request that can be compared to and merged with the main repo branch.
 
 Step 2: With Python version `>3.9` install the requirements  
 ```
@@ -29,4 +29,4 @@ Step 3: Run the editor
 streamlit run editor.py
 ```
 
-This should open your browser to the CSV editor page, if not your terminal should show the address for you to enter to access it. This editor allows you do some basic searching and sorting of the CSV database files and make edits. Make sure to hit the Save button before re-sorting or enacting another search to save any edits, a refresh of the loaded data will lose any changes.
+This should open your browser to the CSV Editor page, if not your terminal should show the address for you to enter to access it. This editor allows you do some basic searching and sorting of the CSV database files and make edits. Make sure to hit the "Save Changes" button before re-sorting or enacting another search to save any edits, a refresh of the loaded data will lose any changes.
