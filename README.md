@@ -11,3 +11,22 @@ For songs with both English and foreign titles like Japanese, use the dominant l
 Database limits are `255` characters for each the song title and artist, these limits will be checked when updates are commited to the running database.
 
 Database information originally was sourced from the generous timestampers in the comments of each video then collected and attributed here: [Claraoke Google Doc](https://docs.google.com/spreadsheets/d/1MvMMqr2_qwVdnFR7m7gLAocx3cUauLC8MMyqJ2Mq8LE/edit?gid=967897437#gid=967897437)
+
+## Using editor.py
+
+Step 1: Fork and clone your copy of the repo, this way you can make edits and changes that can be used in a pull request that can be compared to merge with the main repo branch.
+
+Step 2: With Python version `>3.9` install the requirements  
+```
+cd claraoke-database
+pip install -r "requirements.txt"
+```
+
+This should install the main dependencies: [pandas](https://github.com/pandas-dev/pandas) and [streamlit](https://github.com/streamlit/streamlit) as well as any of their own dependencies.
+
+Step 3: Run the editor  
+```
+streamlit run editor.py
+```
+
+This should open your browser to the CSV editor page, if not your terminal should show the address for you to enter to access it. This editor allows you do some basic searching and sorting of the CSV database files and make edits. Make sure to hit the Save button before re-sorting or enacting another search to save any edits, a refresh of the loaded data will lose any changes.
