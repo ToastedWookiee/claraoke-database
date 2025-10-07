@@ -6,7 +6,7 @@ To submit changes you can either generate PRs for large edits, or open an issue 
 
 To maintain consistency in naming conventions, use parentheses `(...)` for comments, place comments in the song name or artist field for which it is applicable. For artist names when there are two artists separate with `and`, `&`, `feat.`, or `ft.`. For multiple artists of 3 or more, just separate all artists by commas `, `.
 
-For songs with both English and foreign titles like Japanese, use the dominant language for the song first, then have an English title if available in square brackets `[...]`.
+For songs with both English and foreign titles like Japanese, use the dominant language for the song first, then have an English title if available in square brackets `[...]`. Follow this same procedure for artist names as well.
 
 Database limits are `255` characters for each the song title and artist, these limits will be checked when updates are commited to the running database.
 
