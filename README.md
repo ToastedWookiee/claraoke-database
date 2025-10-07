@@ -4,7 +4,7 @@ This is a database of CSV files exported from the database that runs the Claraok
 
 To submit changes you can either generate PRs for large edits, or open an issue to make recommendations and smaller fixes.
 
-To maintain consistency in naming conventions, use parentheses `(...)` for comments, comments on songs should always be placed in the artist field. For artist names when there are two artists separate with `and`, `&`, `feat.`, `ft.` or similiar. For multiple artists of 3 or more, just separate all artists by commas `, `.
+To maintain consistency in naming conventions, use parentheses `(...)` for comments, place comments in the song name or artist field for which it is applicable. For artist names when there are two artists separate with `and`, `&`, `feat.`, or `ft.`. For multiple artists of 3 or more, just separate all artists by commas `, `.
 
 For songs with both English and foreign titles like Japanese, use the dominant language for the song first, then have an English title if available in square brackets `[...]`.
 
@@ -16,7 +16,8 @@ Database information originally was sourced from the generous timestampers in th
 
 Step 1: Fork and clone your copy of the repo, this way you can make edits and changes that can be used in a pull request that can be compared to and merged with the main repo branch.
 
-Step 2: With Python version `>3.9` install the requirements  
+Step 2: With Python version `>3.9` install the requirements
+
 ```
 cd claraoke-database
 pip install -r "requirements.txt"
@@ -24,7 +25,8 @@ pip install -r "requirements.txt"
 
 This should install the main dependencies: [pandas](https://github.com/pandas-dev/pandas) and [streamlit](https://github.com/streamlit/streamlit) as well as any of their own dependencies.
 
-Step 3: Run the editor  
+Step 3: Run the editor
+
 ```
 streamlit run editor.py
 ```
